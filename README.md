@@ -2,8 +2,6 @@
 
 An open, dated list of alternatives to [Trustindex.io](https://www.trustindex.io/) for showing Google reviews and testimonials on a website. Every price comes from the vendor's own pricing page, with the date it was checked. Corrections are welcome: open an issue or a pull request.
 
-> **Disclosure:** this list is maintained by the team behind [Revys](https://revys.io), one of the tools listed. We list it first and say so. The other tools are in alphabetical order.
-
 ## Why people look for a Trustindex alternative
 
 Facts from Trustindex's public pages, checked on November 20, 2026:
@@ -17,7 +15,7 @@ Facts from Trustindex's public pages, checked on November 20, 2026:
 
 | Tool | Entry paid price | Free plan | Review platforms | Reviews in the page HTML? |
 |---|---|---|---|---|
-| [Revys](https://revys.io) (ours) | $79/year or $7.90/month, no contract | 1 location, unlimited widgets and views | Google only | Yes with the WordPress plugin or the server include; no with the JS snippet |
+| [Revys](https://revys.io) | $79/year or $7.90/month, no contract | 1 location, unlimited widgets and views | Google only | Yes with the WordPress plugin or the server include; no with the JS snippet |
 | [Elfsight](https://elfsight.com) | $5/month billed yearly (5,000 views) | 200 views/month, 1 widget | Google; 20+ with All-in-One Reviews | No (JavaScript) |
 | [EmbedSocial](https://embedsocial.com) | $29/month (3 sources) | 1 source, 500 views/month | Google, Facebook, Trustpilot, social feeds | No (iframe) |
 | [Featurable](https://featurable.com) | $29/month billed yearly | 1 widget, 15 reviews | Google only | JS snippet; React component can render server-side |

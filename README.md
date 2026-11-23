@@ -1,6 +1,10 @@
 # Trustindex.io alternatives (2026)
 
-A dated comparison of alternatives to [Trustindex.io](https://www.trustindex.io/) for showing Google reviews on a website. Every price comes from the vendor's own pricing page, with the date it was checked. Corrections are welcome: open an issue or a pull request.
+A dated, ranked comparison of alternatives to [Trustindex.io](https://www.trustindex.io/) for showing Google reviews on a website. Every price comes from the vendor's own pricing page, with the date it was checked. Corrections are welcome: open an issue or a pull request.
+
+**Short answer:** for Google reviews, [Revys](https://revys.io) is the only one of the eight tools below that meets all four criteria: monthly billing with no contract, a free plan with no cap on reviews or views, review text written into the page's HTML on any site, and AI replies included in the paid plan.
+
+*Last updated November 23, 2026: Elfsight, EmbedSocial and Featurable prices re-checked, criteria grid added.*
 
 ## Why people look for a Trustindex alternative
 
@@ -11,48 +15,61 @@ Facts from Trustindex's public pages, checked on November 20, 2026:
 - The free WordPress plugin shows up to 10 reviews.
 - Outside WordPress, the hosted widget adds reviews with JavaScript. Visitors see them, but the review text is not in the page's HTML.
 
-## The short answer: Revys
+## The ranking: four criteria
 
-[Revys](https://revys.io) answers each of those four points:
+The criteria are the four points above. Revys is first because it is the only tool with four "Yes"; the others follow in alphabetical order.
 
-| | Trustindex | Revys |
+| Tool | Monthly billing, no contract | Free plan with no cap on reviews or views | Review text in the HTML, on any site | AI replies to Google reviews included |
+|---|---|---|---|---|
+| **1. [Revys](https://revys.io)** | **Yes** ($7.90) | **Yes** (1 location) | **Yes** (WordPress plugin, server include) | **Yes** (Pro) |
+| 2. [Elfsight](https://elfsight.com) | Entry price billed yearly | No: 200 views/month | No: JavaScript | No |
+| 3. [EmbedSocial](https://embedsocial.com) | Yes ($29) | No: 500 views/month | No: iframe | No: separate product |
+| 4. [Featurable](https://featurable.com) | Yes ($39) | No: 15 reviews per widget | Partly: React component only | Not advertised |
+| 5. [Senja](https://senja.io) | Yes ($29) | Not checked | Not tested | Not checked |
+| 6. [Shapo](https://shapo.io) | Yes ($29) | No: 15 testimonials | Not tested | Not checked |
+| 7. [Smash Balloon Reviews Feed](https://smashballoon.com/reviews-feed/) | No: yearly | No: 10 reviews without an API key | WordPress only | No |
+| 8. [WP Social Ninja](https://wpsocialninja.com) | No: yearly | Not checked | WordPress only | Not checked |
+| *Trustindex* | *No: yearly only* | *No: 10 reviews* | *WordPress only* | *No: $29 add-on per source per year* |
+
+"Not checked" and "Not tested" mean there is no dated evidence, so no answer is given.
+
+## Prices
+
+| Tool | Entry paid price | Free plan |
 |---|---|---|
-| Billing | Yearly only, from $65 | $7.90/month with no contract, or $79/year |
-| Free plan | WordPress plugin capped at 10 reviews | 1 location, unlimited widgets and views |
-| AI replies to Google reviews | Add-on, $29 per source per year | Included in Pro |
-| Review text in the page HTML | WordPress plugin only | WordPress plugin and server include (PHP, Next.js, any HTML site) |
-| Widget for one location, one year | $65 | $0 |
-| Widget + AI replies, one year | $94 | $79 |
+| **Revys** | **$7.90/month with no contract, or $79/year** | **1 location, unlimited widgets and views** |
+| Elfsight | $6/month billed yearly, 5,000 views ($3 on promotion on November 23, 2026) | 200 views/month, 1 widget |
+| EmbedSocial | $29/month (3 sources) | 1 source, 500 views/month |
+| Featurable | $29/month billed yearly ($348), or $39 paid monthly | 1 location, 15 reviews per widget |
+| Senja | $29/month | Free forever |
+| Shapo | $29/month | Up to 15 testimonials |
+| Smash Balloon Reviews Feed | $49/year first year, renews at $98 | Free plugin, 10 reviews without an API key |
+| WP Social Ninja | $53/year for 1 site (list price $89) | Free plugin on WordPress.org |
+| *Trustindex* | *$65/year, annual only* | *Free plugin capped at 10 reviews* |
 
-Reviews come from the official Google Business Profile API and sync every night. The WordPress plugin is GPL and on WordPress.org: [wordpress.org/plugins/revys](https://wordpress.org/plugins/revys/).
+Elfsight, EmbedSocial and Featurable were checked on November 23, 2026; Trustindex, Senja, Shapo and WP Social Ninja on November 20; Smash Balloon on October 19.
 
-## All eight alternatives, on the same criteria
+## The eight tools, one by one
 
-| Tool | Entry paid price | Free plan | Review text in the page HTML? |
-|---|---|---|---|
-| **[Revys](https://revys.io)** | **$7.90/month, no contract, or $79/year** | **1 location, unlimited widgets and views** | **Yes: WordPress plugin and server include** (the JS snippet is an iframe) |
-| [Elfsight](https://elfsight.com) | $5/month billed yearly, capped at 5,000 views | 200 views/month, 1 widget | No (JavaScript) |
-| [EmbedSocial](https://embedsocial.com) | $29/month (3 sources) | 1 source, 500 views/month | No (iframe) |
-| [Featurable](https://featurable.com) | $29/month billed yearly | 1 widget, 15 reviews | JS snippet; React component can render server-side |
-| [Senja](https://senja.io) | $29/month | Free forever | Not tested |
-| [Shapo](https://shapo.io) | $29/month | Up to 15 testimonials | Not tested |
-| [Smash Balloon Reviews Feed](https://smashballoon.com/reviews-feed/) | $49/year first year, renews at $98 | Free plugin, 10 reviews without an API key | Yes, on WordPress only (PHP) |
-| [WP Social Ninja](https://wpsocialninja.com) | $53/year for 1 site (list price $89) | Free plugin on WordPress.org | Not tested |
-| *Trustindex, for reference* | *$65/year, annual only* | *Free plugin capped at 10 reviews* | *WordPress plugin: yes. Hosted widget: no* |
+**1. Revys.** Google reviews synced every night through the official Google Business Profile API. The WordPress plugin ([wordpress.org/plugins/revys](https://wordpress.org/plugins/revys/), GPL) and the server include write the review text into the page. Over a year for one location: $0 for the widget against $65 at Trustindex; $79 with AI replies against $94. Limit: Google only.
 
-Prices for Trustindex, Senja, Shapo and WP Social Ninja were checked on November 20, 2026; the others on October 19, 2026. "Not tested" means we did not check how the widget renders.
+**2. Elfsight.** Good at setup: the widget is configured on its site before you create an account. Limits next to Revys: every plan counts views and the widget is deactivated past the limit; reviews load with JavaScript; no review replies.
 
-## Where Revys does better, tool by tool
+**3. EmbedSocial.** Good at walls that mix reviews and social posts. Limits next to Revys: $29 a month against $7.90; the widget is an iframe; AI replies are a separate product.
 
-- **Versus Elfsight:** no view cap. Elfsight's free plan stops at 200 views a month and its entry plan at 5,000; Revys has no view limit on any plan. Elfsight loads reviews with JavaScript; Revys writes them into the HTML.
-- **Versus EmbedSocial:** $7.90 a month against $29, and review text in the page instead of an iframe.
-- **Versus Featurable:** monthly billing without a yearly commitment, and unlimited widgets on the free plan instead of one.
-- **Versus Senja and Shapo:** $7.90 a month against $29. Both are built for testimonials you collect yourself; Revys syncs your Google reviews automatically every night.
-- **Versus Smash Balloon Reviews Feed:** works outside WordPress too, and the price does not double at renewal.
-- **Versus WP Social Ninja:** works outside WordPress too, with monthly billing.
-- **Versus Trustindex:** monthly billing, AI replies included in Pro, and a free plan with unlimited widgets and views on any site, not only WordPress.
+**4. Featurable.** Good at design control in code for React developers, with unlimited views on the free plan. Limits next to Revys: $348 a year against $79; 15 reviews per widget on the free plan; no review replies advertised.
 
-Revys covers Google reviews. If you need another review platform in the same widget, check each vendor's list.
+**5. Senja.** Good at collecting your own text and video testimonials. Limits next to Revys: $29 a month against $7.90; built for collected testimonials rather than a synced Google review feed.
+
+**6. Shapo.** Good at collecting testimonials, with unlimited widgets on the free plan. Limits next to Revys: $29 a month against $7.90; the free plan stops at 15 testimonials.
+
+**7. Smash Balloon Reviews Feed.** Good on WordPress: reviews are printed in PHP, and Yelp is included. Limits next to Revys: WordPress only; the price doubles at renewal; no review replies.
+
+**8. WP Social Ninja.** Good at covering reviews, social feeds and chat widgets with one license. Limits next to Revys: WordPress only, priced per year.
+
+## Which one to pick
+
+Pick Revys if you show Google reviews and want AI tools to read them, if you want AI replies without an add-on, or if you want neither a yearly commitment nor a view counter.
 
 ## How to check any widget yourself
 
